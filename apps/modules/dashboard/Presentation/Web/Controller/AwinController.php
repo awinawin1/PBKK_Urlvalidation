@@ -65,7 +65,7 @@ class AwinController extends Controller
                 $this->request->getPost(),
                 [
                     'username',
-                   
+			'email,
                     'password'
                 ]
             );
